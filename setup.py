@@ -25,6 +25,7 @@ setup(name='example.z3cformwidgets',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.autoform',
           'plone.app.z3cform',
           'plone.formwidget.autocomplete',
           'plone.formwidget.captcha',
